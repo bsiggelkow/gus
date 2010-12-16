@@ -2,7 +2,8 @@
 
 == DESCRIPTION:
 
-A Ruby API for the Google Url Shortener (http://goo.gl)
+A Ruby API for the Google Url Shortener (http://goo.gl). Goo.gl currently 
+only provides support for shortening urls, but not expanding. As Goo.gl enhances their API, Gus will follow suit.
 
 == INSTALLATION:
 
@@ -11,6 +12,7 @@ gem install gus
 == USAGE:
 
 short_url = Gus::Shortener.shorten(long_url)
+
 
 == LICENSE:
 
