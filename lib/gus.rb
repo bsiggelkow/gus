@@ -1,3 +1,2 @@
-module Gus
-  # Your code goes here...
-end
+require 'net/http'
+require 'gus/shortener'
