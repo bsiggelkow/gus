@@ -16,6 +16,7 @@ Gem::Specification.new do |s|
   s.rubyforge_project         = "gus"
 
   s.add_development_dependency "bundler", ">= 1.0.0.rc.5"
+  s.add_dependency "crack", ">= 0.1.8"
 
   s.files        = `git ls-files`.split("\n")
   s.executables  = `git ls-files`.split("\n").select{|f| f =~ /^bin/}

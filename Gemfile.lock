@@ -2,10 +2,12 @@ PATH
   remote: .
   specs:
     gus (0.0.1)
+      crack (>= 0.1.8)
 
 GEM
   remote: http://rubygems.org/
   specs:
+    crack (0.1.8)
     diff-lcs (1.1.2)
     rspec (2.3.0)
       rspec-core (~> 2.3.0)
@@ -21,5 +23,6 @@ PLATFORMS
 
 DEPENDENCIES
   bundler (>= 1.0.0.rc.5)
+  crack (>= 0.1.8)
   gus!
   rspec
