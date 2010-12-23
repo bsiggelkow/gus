@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    gus (0.0.1)
+    gus (0.0.3)
       crack (>= 0.1.8)
 
 GEM
